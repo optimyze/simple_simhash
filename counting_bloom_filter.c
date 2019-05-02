@@ -15,7 +15,7 @@
 
 /*
  * C implementation of a very simple counting bloom filter that counts the
- * number of times a given 64-bit value occurred, saturating at 255. Constant
+ * number of times a given 64-bit value occurred, saturating at 0xFFFF. Constant
  * memory usage, zero allocations.
  */
 
