@@ -82,7 +82,7 @@ int simple_simhash(uint8_t* input, size_t number_of_bytes, uint64_t* result_1,
     }
 
     uint64_t value_with_count = count;
-    value_with_count << 32;
+    value_with_count <<= 32;
     value_with_count |= value;
 
     /* Generate a 256-bit hash from this value */
